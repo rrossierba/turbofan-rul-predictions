@@ -8,7 +8,12 @@ This project focuses on predicting the Remaining Useful Life (RUL) of turbofan e
 
 ## Data Description
 
-The dataset consists of multivariate time series representing different turbofan engines, each beginning with varying degrees of initial wear and manufacturing variations. Each time series captures operational settings and sensor measurements that are indicative of engine performance and degradation over time.
+The dataset (available on kaggle) consists of multivariate time series representing different turbofan engines, each beginning with varying degrees of initial wear and manufacturing variations. 
+Each time series captures operational settings and sensor measurements that are indicative of engine performance and degradation over time.
+For the project we used the time serie contained in the file `train_FD001.txt`, where:
+
+- Conditions: ONE (Sea Level)
+- Fault Modes: ONE (HPC Degradation)
 
 ## Methodology
 
